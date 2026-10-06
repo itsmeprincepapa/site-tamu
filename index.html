@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tamu Niang — Étudiante à l'UGB</title>
+  <meta name="description" content="Tamu Niang, bachelière fraîchement diplômée, orientée à l'Université Gaston Berger de Saint-Louis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR (100 % CSS, le menu mobile utilise une case à cocher) -->
+  <header class="navbar">
+    <a class="logo" href="#accueil">Tamu Niang</a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Ouvrir le menu">
+    <label for="menu-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+    <nav class="menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#galerie">Galerie</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ACCUEIL -->
+    <section id="accueil" class="hero">
+      <div class="hero-text">
+        <p class="badge">Bachelière · Promotion 2026</p>
+        <h1>Tamu<br>Niang</h1>
+        <p class="lead">Étudiante. Le bac en poche, direction l'Université Gaston Berger de Saint-Louis.</p>
+        <a class="btn" href="#parcours">Voir mon parcours</a>
+      </div>
+      <figure class="hero-photo">
+        <img src="images/tamu-noir-blanc.jpeg" alt="Portrait en noir et blanc de Tamu Niang, foulard sur la tête">
+      </figure>
+    </section>
+
+    <!-- PARCOURS -->
+    <section id="parcours" class="parcours">
+      <h2>Mon parcours</h2>
+      <div class="timeline">
+        <article>
+          <h3>Baccalauréat obtenu</h3>
+          <p>Des années de travail récompensées : le bac est validé, et une nouvelle étape commence.</p>
+        </article>
+        <article>
+          <h3>Orientée à l'UGB</h3>
+          <p>Affectée à l'Université Gaston Berger de Saint-Louis, pour démarrer ma vie d'étudiante.</p>
+        </article>
+        <article>
+          <h3>La suite</h3>
+          <p>Apprendre, rencontrer, grandir. Tout reste à écrire.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section id="galerie" class="galerie">
+      <h2>Galerie</h2>
+      <div class="grid">
+        <figure class="g-large">
+          <img src="images/tamu-collage.jpeg" alt="Quatre photos de Tamu Niang devant un miroir, en body rouge, jean et kimono scintillant" loading="lazy">
+        </figure>
+        <figure class="g-small">
+          <img src="images/tamu-portrait.jpeg" alt="Selfie de Tamu Niang, cheveux relevés en afro puff" loading="lazy">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Tamu Niang</p>
+  </footer>
+
+</body>
+</html>
